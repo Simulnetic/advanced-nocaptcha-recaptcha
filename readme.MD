@@ -1,14 +1,14 @@
 # Advanced noCaptcha & invisible Captcha (v2 & v3)
 Master repository located on Bitbucket https://bitbucket.org/simulnetic/advanced-nocaptcha-invisible-captcha-v2-v3/
 
-Contributors: shamim51, meek2100, terfex
-Tags: recaptcha,nocaptcha,invisible,bot,spam
-Requires at least: 4.4
-Tested up to: 5.7
-Stable tag: 7.0.0
-Requires PHP: 5.4
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Contributors: shamim51, meek2100, terfex  
+Tags: recaptcha,nocaptcha,invisible,bot,spam  
+Requires at least: 4.4  
+Tested up to: 5.7  
+Stable tag: 7.0.0  
+Requires PHP: 5.4  
+License: GPLv2 or later  
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
 Show noCaptcha or invisible captcha in Comment (after Comment textarea before submit button), CF7, bbpress, BuddyPress, WooCommerce, Login, Register, Lost & Reset Password.
 
