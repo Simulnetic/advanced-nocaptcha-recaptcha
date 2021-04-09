@@ -1,7 +1,7 @@
 # Advanced noCaptcha & invisible Captcha (v2 & v3)
 Master repository located on Bitbucket https://bitbucket.org/simulnetic/advanced-nocaptcha-invisible-captcha-v2-v3/
 
-Contributors: shamim51, meek2100, terfex  
+Contributors: [shamim51](https://github.com/shamim51), [meek2100](https://github.com/meek2100), [terfex](https://github.com/terfex)  
 Tags: recaptcha,nocaptcha,invisible,bot,spam  
 Requires at least: 4.4  
 Tested up to: 5.7  
