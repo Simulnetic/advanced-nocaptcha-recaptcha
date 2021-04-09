@@ -64,10 +64,10 @@ Show noCaptcha or invisible captcha in Comment Form (after Comment textarea befo
 
 ## Frequently Asked Questions
 
-### Can i use this plugin to my language?
+### Can I use this plugin to my language?
 Yes. this plugin is translate ready. But If your language is not available you can make one. If you want to help us to translate this plugin to your language you are welcome.
 
-### Can i show multiple captcha in same page?
+### Can I show multiple captcha in same page?
 Yes. You can show unlimited number of captcha in same page.
 
 ### How to load reCaptcha v3 script only when there is form in that page?
@@ -80,14 +80,14 @@ To show noCaptcha use `[anr_nocaptcha g-recaptcha-response]`
 ### How to set captcha in WooCommerce?
 If Login Form, Registration Form, Lost Password Form, Reset Password Form is selected in SETTINGS page of this plugin, they will show and verify Captcha in WooCommerce respective forms as well.
 
-### How to login if i am locked out?
+### How to login if I am locked out?
 You can access your file via FTP or file manager and rename `advanced-nocaptcha-recaptcha` folder to something else. Then login as normal. Then rename back this folder.
 
 ## Changelog
 
 ### 7.0.0
 
-* FIX: Update Freemius dependency to Version 2.4.2. Courtesy of [meek2100] (https://github.com/meek2100). Fixes issue [PHP 8.0 Support](https://github.com/shamim2883/advanced-nocaptcha-recaptcha/issues/10)
+* FIX: Update Freemius dependency to Version 2.4.2. Courtesy of [meek2100](https://github.com/meek2100). Fixes issue [PHP 8.0 Support](https://github.com/shamim2883/advanced-nocaptcha-recaptcha/issues/10)
 
 ### 6.1.5
 
@@ -248,7 +248,7 @@ You can access your file via FTP or file manager and rename `advanced-nocaptcha-
 
 ### 7.0.0
 
-* FIX: Update Freemius dependency to Version 2.4.2. Courtesy of [meek2100] (https://github.com/meek2100)
+* FIX: Update Freemius dependency to Version 2.4.2. Courtesy of [meek2100](https://github.com/meek2100)
 
 ### 6.1.5
 
