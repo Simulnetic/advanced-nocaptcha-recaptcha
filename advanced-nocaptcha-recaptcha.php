@@ -1,14 +1,14 @@
 <?php
 /*
 Plugin Name: Advanced noCaptcha & invisible Captcha
-Plugin URI: https://www.shamimsplugins.com/contact-us/
+Plugin URI: https://bitbucket.org/simulnetic/advanced-nocaptcha-invisible-captcha-v2-v3
 Description: Show noCaptcha or invisible captcha in Comment Form, bbPress, BuddyPress, WooCommerce, CF7, Login, Register, Lost Password, Reset Password. Also can implement in any other form easily.
-Version: 6.1.5
-Author: Shamim Hasan
-Author URI: https://www.shamimsplugins.com/contact-us/
+Version: 7.0.0
+Author: Simulnetic
+Author URI: https://simulnetic.com
 Text Domain: advanced-nocaptcha-recaptcha
 License: GPLv2 or later
-WC tested up to: 4.5.2
+WC tested up to: 5.7
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -74,7 +74,7 @@ if ( function_exists( 'anr_fs' ) ) {
 		function anr_fs() {
 			global $anr_fs;
 			$for_network = is_plugin_active_for_network( plugin_basename( __FILE__ ) );
-	
+
 			if ( ! isset( $anr_fs ) ) {
 				// Activate multisite network integration.
 				if ( $for_network && ! defined( 'WP_FS__PRODUCT_5860_MULTISITE' ) ) {
@@ -82,7 +82,7 @@ if ( function_exists( 'anr_fs' ) ) {
 				}
 				// Include Freemius SDK.
 				require_once dirname(__FILE__) . '/freemius/start.php';
-	
+
 				$anr_fs = fs_dynamic_init( array(
 					'id'                  => '5860',
 					'slug'                => 'advanced-nocaptcha-recaptcha',
@@ -108,10 +108,10 @@ if ( function_exists( 'anr_fs' ) ) {
 					),
 				) );
 			}
-	
+
 			return $anr_fs;
 		}
-	
+
 		// Init Freemius.
 		anr_fs();
 		// Signal that SDK was initiated.
@@ -121,4 +121,3 @@ if ( function_exists( 'anr_fs' ) ) {
 	// ... Your plugin's main file logic ...
 	ANR::init();
 }
-
