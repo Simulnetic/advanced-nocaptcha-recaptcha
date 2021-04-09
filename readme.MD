@@ -1,5 +1,4 @@
 # Advanced noCaptcha & invisible Captcha (v2 & v3)
-forked from [shamim2883/advanced-nocaptcha-recaptcha] (https://github.com/shamim2883/advanced-nocaptcha-recaptcha)  
 Master repository located on Bitbucket https://bitbucket.org/simulnetic/advanced-nocaptcha-invisible-captcha-v2-v3/
 
 Contributors: shamim51, meek2100, terfex
