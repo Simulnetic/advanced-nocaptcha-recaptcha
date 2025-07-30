@@ -1,0 +1,14 @@
+name: advanced-nocaptcha-recaptcha
+id: ari:cloud:compass:d926c5b6-8500-4cc0-ae8b-e0b5c4afa665:component/c0bc404a-5512-475b-abf0-d55726924092/e3c04019-95c9-458f-8c40-29a8eff9da65
+description: Advanced noCaptcha reCaptcha wordpress plugin
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links: []
+relationships:
+  DEPENDS_ON: []
+labels:
+  - language:php
+  - source:github
+customFields: null
